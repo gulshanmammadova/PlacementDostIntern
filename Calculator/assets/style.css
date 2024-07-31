@@ -1,0 +1,20 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.inp{
+    border-radius: 4px;
+    padding: 1px 21px;
+    border: 1px solid gray;
+
+}
+.btn-calc{
+    /* background-color:#F8F8F8 ; */
+    background-color: green; 
+    border-radius: 4px;
+    color: white;
+    font-weight: 500;
+    padding: 1px 21px;
+    border: 1px solid green;
+}

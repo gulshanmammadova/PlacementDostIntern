@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.introduce-all-part{
+    /* position: relative; */
+    max-height: 100vh;
+    text-align: center;
+    width: 100%;
+    position: absolute;
+    z-index: 999999;
+    color: white;
+    top: 50%;
+}
+.name{
+    color: #FF4D5A;
+    font-weight: 600;
+}
+.introduce{
+    top: 50%;
+    transform: translateY(-50%);
+    /* color: red; */
+}
+#particles-js{
+    background-color: #0D1117;
+    position: relative;
+}
