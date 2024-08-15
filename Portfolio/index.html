@@ -12,25 +12,172 @@
 </head>
 
 <body>
+
     <main>
-        <div class="introduce-all-part">
-            <div class=" mx-auto introduce">
+        <div id="introduce-all-part" class="introduce-all-part">
+            <div class="mx-auto introduce">
                 <h1>Hello, I'm <span class="name">Gulshan Mammadova.</span></h1>
                 <h1>I'm <span id="typed"></span></h1>
+                <button class="btn-view-my-work">View My Work &darr;</button>
             </div>
         </div>
         <div id="particles-js"></div>
     </main>
-    <header></header>
-    <footer></footer>
+    <header>
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">Navbar</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#introduce-all-part">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Link</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <section id="particles-js">
+        <div>
+            <div>
+                <h1 class="about-header">About</h1>
+                <div class="d-flex container mx-auto about-content ">
+                    <div class="w-50">
+                        <div class="w-50"><img src="" alt=""></div>
+                        <div class="user-info">About
+                            Fully committed to the philosophy of life-long learning, I’m a full stack developer with a
+                            deep passion for JavaScript, React and all things web development. The unique combination of
+                            creativity, logic, technology and never running out of new things to discover, drives my
+                            excitement and passion for web development. When I’m not at my computer I like to spend my
+                            time reading, keeping fit and playing guitar.
+
+                        </div>
+
+                    </div>
+                    <div class="w-50 tool-all">
+                        <div class="tool-box my-3">
+                            <div>
+                                <img class="tool-img"
+                                    src="https://benscott.dev/imgs/html.6aa56206be02cf6404844871df1d2da6.png" alt="">
+
+                            </div>
+                            HTML
+                        </div>
+                     
+                        <div class="tool-box my-3">
+                            <div>
+                                <img class="tool-img"
+                                    src="./assets/images/css.png" alt="">
+
+                            </div>
+                            CSS
+                        </div>
+                        <div class="tool-box my-3">
+                            <div>
+                                <img class="tool-img"
+                                    src="./assets//images/js.png" alt="">
+
+                            </div>
+                            JS
+                        </div>
+                        <div class="tool-box my-3">
+                            <div>
+                                <img class="tool-img"
+                                    src="./assets/images/figma1_-removebg-preview.png" alt="">
+
+                            </div>
+                            Figma
+                        </div>
+
+                        <div class="tool-box my-3">
+
+                            <div>
+                                <img class="tool-img"
+                                    src="./assets/images/bootstrap.png" alt="">
+
+                            </div>
+                            Bootstrap
+                        </div>
+                        <div class="tool-box my-3">
+                            <div>
+                                <img class="tool-img"
+                                    src="./assets/images/github-removebg-preview.png" alt="">
+
+                            </div>
+GitHub                        </div>
+
+                        <div class="tool-box my-3">
+                            <div>
+                                <img class="tool-img"
+                                    src="./assets/images/tailwind.png" alt="">
+
+                            </div>
+                            Tailwind CSS
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="project-showcase" class="project-showcase">
+        <div class="container">
+            <div class="screen-container">
+                <div class="computer-screen">
+                    <img src="https://via.placeholder.com/500x350" alt="Project Screenshot">
+                </div>
+            </div>
+            <div class="info-container">
+                <h2>App Name</h2>
+                <p>This app helps you manage your projects efficiently with modern tools and a sleek UI.</p>
+                <div class="links">
+                    <a href="https://github.com/" target="_blank" class="github-link">
+                        <i class="fab fa-github"></i> GitHub
+                    </a>
+                    <a href="https://example.com/demo" target="_blank" class="demo-link">
+                        <i class="fas fa-external-link-alt"></i> Demo
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="contact">
+        <div class="contact-section">
+            <h1>Contact Me</h1>
+            <form action="#" method="post">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="message">Message</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+                
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+    </section>
     
+    <footer></footer>
+
     <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.8/typed.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
-        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
-        integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
+        integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
+        crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
     <script src="./assets/main.js"></script>
 </body>
