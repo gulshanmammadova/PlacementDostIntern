@@ -177,12 +177,12 @@ text-align: center;
     
     .project-showcase {
         background-color: #0D1117;
-        padding: 60px 20px;
+        padding: 20px 20px 0px 20px;
         color: white;
         display: flex;
         justify-content: center;
         align-items: center;
-        min-height: 100vh;
+        min-height: 70vh;
     }
     
     .container {
@@ -277,7 +277,10 @@ text-align: center;
         transition: background-color 0.4s ease, transform 0.4s ease;
         box-shadow: 0 4px 15px rgba(255, 77, 90, 0.5);
     }
-    
+    .github{
+        width: 500px;
+        height: 500px;
+    }
     .links a i {
         margin-right: 10px;
     }
